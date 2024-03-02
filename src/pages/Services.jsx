@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import { services } from '../assets/js/services.js'
+import { services } from '../assets/services.js'
 import imgTop from "../assets/img/breadcrumbs-bg.jpg";
 
 const Services = () => {
