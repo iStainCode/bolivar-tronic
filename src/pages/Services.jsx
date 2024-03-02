@@ -33,11 +33,6 @@ const Services = () => {
                 </Link>
               </li>
               <li>
-                <Link to='/proyects'>
-                  Proyectos
-                </Link>
-              </li>
-              <li>
                 <Link to='/contact'>
                   Contacto
                 </Link>

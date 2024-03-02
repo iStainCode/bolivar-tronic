@@ -21,21 +21,25 @@ const Contact = () => {
           <nav id="navbar" className="navbar">
             <ul>
               <li>
-                <a href="index.html">Inicio</a>
+                <Link to='/' >
+                  Inicio
+                </Link>
               </li>
               <li>
-                <a href="about.html">Nosotros</a>
+                <Link to='/about'>
+                  Nosotros
+                </Link>
+                
               </li>
               <li>
-                <a href="services.html">Servicios</a>
+                <Link to='/services'>
+                  Servivios
+                </Link>
               </li>
               <li>
-                <a href="projects.html">Proyectos</a>
-              </li>
-              <li>
-                <a href="contact.html" className="active">
+                <Link to='/contact' className="active">
                   Contacto
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
